@@ -1,0 +1,3 @@
+# to stop showing took 10s
+[cmd_duration]
+disabled = true
