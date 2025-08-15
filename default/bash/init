@@ -4,6 +4,7 @@ fi
 
 if command -v zoxide &> /dev/null; then
   eval "$(zoxide init bash)"
+  _ZO_DOCTOR=0
 fi
 
 if command -v fzf &> /dev/null; then
