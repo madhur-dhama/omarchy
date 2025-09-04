@@ -141,7 +141,7 @@ show_setup_menu() {
   *Audio*) alacritty --class=Wiremix -e wiremix ;;
   *Wifi*)
     rfkill unblock wifi
-    alacritty --class=Impala -e impala
+    alacritty --class=nmtui -e nmtui
     ;;
   *Bluetooth*)
     rfkill unblock bluetooth
