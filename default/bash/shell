@@ -12,3 +12,6 @@ fi
 # Set complete path
 export PATH="./bin:$HOME/.local/bin:$PATH"
 set +h
+
+#tmux sessionizer bind
+bind '"\C-f":"'"$HOME"'/.config/scripts/tmux-sessionizer\n"'
