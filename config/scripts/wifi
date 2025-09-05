@@ -3,6 +3,4 @@
 
 iwctl station wlan0 scan
 
-sleep 3
-
 iwctl station wlan0 connect gg
