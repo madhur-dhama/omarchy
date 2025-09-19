@@ -4,6 +4,8 @@
 set -eEo pipefail
 
 # Define Omarchy locations
+export OMARCHY_USER_NAME="madhur-dhama"
+export OMARCHY_USER_EMAIL="madhurdhama@gmail.com"
 export OMARCHY_PATH="$HOME/.local/share/omarchy"
 export OMARCHY_INSTALL="$OMARCHY_PATH/install"
 export OMARCHY_INSTALL_LOG_FILE="/var/log/omarchy-install.log"
